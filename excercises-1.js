@@ -117,8 +117,12 @@ console.assert(greet("Iron Man") === "Hello, Iron Man!")
 // return "The" + "&nbsp" + word1 + "&nbsp" + "brown" + "&nbsp" + word2 + "&nbsp" + word3 + "over the" + "&nbsp" + word4 "."
 // }
 
+// function madlib (word1, word2, word3, word4) {
+//     return "The " + word1 + " brown " + word2 + " " + word3 + " over the " + word4 + "."
+// }
+
 function madlib (word1, word2, word3, word4) {
-    return "The " + word1 + " brown " + word2 + " " + word3 + " over the " + word4 + "."
+    return `The ${word1} brown ${word2} ${word3} over the ${word4}.`
 }
 
 
