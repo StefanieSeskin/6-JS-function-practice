@@ -7,7 +7,7 @@
 function max (num1, num2) {
     if (num1 > num2) {
         return num1
-    } else {
+    }   else {
         return num2
     }
 
@@ -31,7 +31,7 @@ function maxOfThree (num1, num2, num3) {
     if (num2 > num1 && num2 > num3) {
         return num2
     
-    } else  {
+    }   else  {
         return num3
     }
 }    
@@ -48,10 +48,12 @@ console.assert(maxOfThree(-12,4,-5) === 4)
 // ---------------------
 
 function isVowel (item) {
-    if (item = a || e || i || o || u)
-    return true
- }
-
+    if (item = "a" || "e" || "i" || "o" || "u") {
+        return true
+  }     else {
+        return false
+  }  
+}
 
 
 console.assert(isVowel(0) === false);
@@ -80,23 +82,29 @@ console.assert(isVowel("2") === false)
 // }
 
 // if character in string is not a vowel, let the new string be the string 
-// 'not a vowel' + o + not a vowel  
+// 'not a vowel' + o + 'not a vowel'  
 
-rovarspraket("Stefanie")
 
-function rovarspraket(str){
-  let newStr = "str + o +str"
-  for(let i = 0;i < str.length; i++){
-  newStr += "x"
-}
-  return newStr
-}
 
-console.assert(rovarspraket("a") === "a")
-console.assert(rovarspraket("b") === "bob")
-console.assert(rovarspraket("cat") === "cocatot")
-console.assert(rovarspraket("javascript") === "jojavovasoscocroripoptot")
-console.assert(rovarspraket(0) === "0")
+// function rovarspraket(str) {
+//     var addLetterO = ''
+//     for (var i = 0; i < str.length; i++)
+//      {
+//           var letter = str[i]
+//           if (letter !== 'a' || 'e' || 'i' || 'u') {
+//               } else {
+//                  addLetterO = addLetterO + "o" + addLetterO
+//               }
+
+
+// }
+// // I don't know
+
+// console.assert(rovarspraket("a") === "a")
+// console.assert(rovarspraket("b") === "bob")
+// console.assert(rovarspraket("cat") === "cocatot")
+// console.assert(rovarspraket("javascript") === "jojavovasoscocroripoptot")
+// // console.assert(rovarspraket(0) === "0")
 
 
 // ---------------------
@@ -105,7 +113,21 @@ console.assert(rovarspraket(0) === "0")
 // return the string "ratset gaj".
 // ---------------------
 
-function reverse (a)
+// P - Reverse a string 
+// example: books = skoob
+// data structures: string
+// algorithm - start at end. each character into new string
+
+
+function reverse(str) {
+    for (var i = str.length - 1; i >= 0; i--) {   
+    }    
+    reverse = reverse + str[i]
+}
+    return reverse;
+}
+
+//I can't do this.  I watched the videos and spent over 1/2 hour with Thomas and don't get it.  
 
 
 console.assert(reverse("books") === "skoob")

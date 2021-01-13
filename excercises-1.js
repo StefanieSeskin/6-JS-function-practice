@@ -81,7 +81,7 @@ console.assert(getLength('supercalifragilisticexpialidocious') === 34)
 
 function greaterThan (a, b) {
     if (a > b) {
-    return true 
+        return true 
         }  else  {
         return false
     }
