@@ -48,6 +48,9 @@ function avg (num1, num2, num3) {
     return (num1 + num2 + num3)/3
 }
 
+// OR var total = num1 + num2 + num3 
+//    return total / 3 
+
 console.assert(avg(2,3,4) === 3)
 console.assert(avg(234, 63, 234) === 177)
 console.assert(avg(123,234,345) === 234)
