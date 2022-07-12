@@ -127,7 +127,6 @@ function reverse(str) {
     return reverse;
 }
 
-//I can't do this.  I watched the videos and spent over 1/2 hour with Thomas and don't get it.  
 
 
 console.assert(reverse("books") === "skoob")
